@@ -1,49 +1,69 @@
-# Expense Tracker App
+# [Expense Tracker App](https://github.com/raveerocks/expense-tracker-app/)
 
-This is simple ReactJS project which demonstrates the following React concepts.
+![Logo](https://github.com/raveerocks/expense-tracker-app/blob/main/expense-tracker-app.png)
 
-:pushpin: React Basics
-:pushpin: React Components
-:pushpin: React State
+## [Introduction](https://github.com/raveerocks/expense-tracker-app#introduction)
 
-## Getting Started
+This <b>[Expense Tracker App](https://raveerocks.github.io/expense-tracker-app/)</b> built with ReactJS project uses and demonstrates the following React concepts.
 
-## Available Scripts
+#### :pushpin: [JSX](https://reactjs.org/docs/introducing-jsx.html)
 
-In the project directory, you can run:
+#### :pushpin: [Rendering Elements](https://reactjs.org/docs/rendering-elements.html)
 
-### `npm start`
+#### :pushpin: [Components and Props](https://reactjs.org/docs/components-and-props.html)
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+#### :pushpin: [Handling Events](https://reactjs.org/docs/handling-events.html)
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+#### :pushpin: [Conditional Rendering](https://reactjs.org/docs/conditional-rendering.html)
 
-# Application Design
+#### :pushpin: [Lists and Keys](https://reactjs.org/docs/lists-and-keys.html)
 
-## Components
+#### :pushpin: [Forms](https://reactjs.org/docs/forms.html)
 
-:label: `App` - This component displays the entire Application.
+#### :pushpin: [Lifting State Up](https://reactjs.org/docs/lifting-state-up.html)
 
-:label: `NewExpense` - This component is a container for the `ExpenseForm` component.
 
-:label: `ExpenseForm` - This component displays a form to enter the details of a new `ExpenseItem`.
+## [Setting up development environment](/#)
 
-:label: `Expenses` - This component displays the details of all the expenses.
+:arrow_down: Install [Node](https://nodejs.org/en/) and [npm](https://www.npmjs.com/) if you don't have it already.
 
-:label: `ExpensesFilter` - This component displays a dropdown to filter the expenses by year.
+:package: Clone this repository with <code> git clone git@github.com:raveerocks/expense-tracker-app.git </code>
 
-:label: `ExpensesChart` - This component is a container for the `Chart` component.
+:arrow_down: Install the required npm packages with  <code> npm install </code>
 
-:label: `Chart` - This component displays a chart showing expenses per month.
+:rocket: Start the application with <code>npm start</code>
 
-:label: `ChartBar` - This component is used to display the bars for each month in the `Chart` component.
+:white_check_mark: The app should now be running on [http://localhost:3000/](http://localhost:3000/)
 
-:label: `ExpensesList` - This component is a container for a list of `ExpenseItem` components.
+:recycle: The page will reload if you make edits.
 
-:label: `ExpenseItem` - This component displays date, name and amount of each expense.
+:heavy_exclamation_mark: You will also see any lint errors in the console.
 
-:label: `ExpenseDate` - This component displays the date of expense within each `ExpenseItem` component.
 
-:label: `Card` - This component is container with Card CSS styling.
+# [Application Design]()
+
+## [Components]()
+
+:label: **App** - This component displays the entire Application.
+
+:label: **NewExpense** - This component is a container for the **ExpenseForm** component.
+
+:label: **ExpenseForm** - This component displays a form to enter the details of a new **ExpenseItem**.
+
+:label: **Expenses** - This component displays the details of all the expenses.
+
+:label: **ExpensesFilter** - This component displays a dropdown to filter the expenses by year.
+
+:label: **ExpensesChart** - This component is a container for the **Chart** component.
+
+:label: **Chart** - This component displays a chart showing expenses per month.
+
+:label: **ChartBar** - This component is used to display the bars for each month in the **Chart** component.
+
+:label: **ExpensesList** - This component is a container for a list of **ExpenseItem** components.
+
+:label: **ExpenseItem** - This component displays date, name and amount of each expense.
+
+:label: **ExpenseDate** - This component displays the date of expense within each **ExpenseItem** component.
+
+:label: **Card** - This component is container with Card CSS styling.
